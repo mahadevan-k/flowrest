@@ -50,7 +50,7 @@ Flowrest automatically provides methods to chain resources both at a member and 
 Dial M for Member
 ---
 
-All reosurces have a member resolution function called `m`. You use this function to insert the identifier of the member. For example, if you wanted to get a book with id `4`, you'd do:
+All resources have a member resolution function called `m`. You use this function to insert the identifier of the member. For example, if you wanted to get a book with id `4`, you'd do:
 
     root.books.m(4).GET()
     

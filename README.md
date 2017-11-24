@@ -1,3 +1,5 @@
+![Flowrest code screenshot](https://github.com/bitonator/flowrest/raw/master/flowrest.png)
+
 # Flowrest
 
 A fluent javascript REST client that works directly in the browser
@@ -31,7 +33,7 @@ Then get the root object of your `flowrestapi` object, and access its resources 
     
     var root=api.root();
     
-    var promise=root.publications.m(1).books.GET({limit=20, offset=0})
+    var promise=root.publications.m(1).books.GET({limit: 20, offset: 0})
     
     promise.then(Function(response, data) {
         var booklist=data.results;

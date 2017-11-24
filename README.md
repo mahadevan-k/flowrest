@@ -14,7 +14,7 @@ The 2-minute Tutorial
 
 Grab a copy of the script at https://github.com/bitonator/flowrest/raw/master/flowrest.js (right click -> Download)
 
-First configure your API by creating an instance of the `flowrestapi` object, providing a base URL and the heirarchy of resources.
+Configure your API by creating an instance of the `flowrestapi` object, providing a base URL and the heirarchy of resources.
 
     var api=new flowrestapi({
         baseUrl: "http://api.example.com/",

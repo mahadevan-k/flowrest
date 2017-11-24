@@ -1,3 +1,5 @@
+![Flowrest code screenshot](https://github.com/bitonator/flowrest/raw/master/flowrest.png)
+
 # Flowrest
 
 A fluent javascript REST client that works directly in the browser

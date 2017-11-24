@@ -12,6 +12,8 @@ Hence Flowrest, a tiny(~5KB) javascript library that exposes a fluent interface 
 The 2-minute Tutorial
 ---
 
+Grab a copy of the script at https://github.com/bitonator/flowrest/raw/master/flowrest.js
+
 First configure your API by creating an instance of the `flowrestapi` object, providing a base URL and the heirarchy of resources.
 
     var api=new flowrestapi({
